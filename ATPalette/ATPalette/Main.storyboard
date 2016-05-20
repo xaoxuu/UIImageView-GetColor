@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0sx-AE-zCc">
+    <dependencies>
+        <deployment version="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="QgC-Xa-qcs">
+            <objects>
+                <navigationController id="0sx-AE-zCc" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ueJ-aJ-tsT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BAj-pT-41I"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oKp-IH-Yb9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261" y="-16"/>
+        </scene>
+        <!--ATPalette-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="ATPalette" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ph1-1h-g7b">
+                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s8W-R3-yJ3">
+                                        <rect key="frame" x="8" y="50" width="544" height="351"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_Palette" translatesAutoresizingMaskIntoConstraints="NO" id="qJh-o6-Pry">
+                                                <rect key="frame" x="172" y="8" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="1oG-Nf-lU6"/>
+                                                    <constraint firstAttribute="width" constant="200" id="Ijg-IW-RdE"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIB-fA-iMq">
+                                                <rect key="frame" x="212" y="313" width="120" height="30"/>
+                                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="u13-Q1-xF6"/>
+                                                </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="RESET"/>
+                                                <connections>
+                                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tai-Vb-vRZ"/>
+                                                    <action selector="touchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="t3j-uN-Dke"/>
+                                                    <action selector="touchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dfj-fE-yrh"/>
+                                                    <action selector="touchUp:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Vhe-xz-jF5"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="qJh-o6-Pry" firstAttribute="centerX" secondItem="s8W-R3-yJ3" secondAttribute="centerX" id="WBW-F5-CWX"/>
+                                            <constraint firstAttribute="bottom" secondItem="wIB-fA-iMq" secondAttribute="bottom" constant="8" id="hx3-qX-t4G"/>
+                                            <constraint firstItem="qJh-o6-Pry" firstAttribute="top" secondItem="s8W-R3-yJ3" secondAttribute="top" constant="8" id="jtm-TT-y0E"/>
+                                            <constraint firstItem="wIB-fA-iMq" firstAttribute="centerX" secondItem="s8W-R3-yJ3" secondAttribute="centerX" id="lu2-iJ-jEo"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2l-RJ-v1q">
+                                        <rect key="frame" x="201" y="501" width="158" height="27"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                        <state key="normal" title="Created by Aesir Titan 2016"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="H2l-RJ-v1q" secondAttribute="bottom" constant="8" id="8V8-q0-gV2"/>
+                                    <constraint firstItem="s8W-R3-yJ3" firstAttribute="top" secondItem="ph1-1h-g7b" secondAttribute="top" constant="50" id="LK4-ag-Kg4"/>
+                                    <constraint firstAttribute="trailing" secondItem="s8W-R3-yJ3" secondAttribute="trailing" constant="8" id="OgC-o7-3PS"/>
+                                    <constraint firstItem="H2l-RJ-v1q" firstAttribute="top" secondItem="s8W-R3-yJ3" secondAttribute="bottom" constant="100" id="Y5j-yw-CcK"/>
+                                    <constraint firstItem="H2l-RJ-v1q" firstAttribute="centerX" secondItem="ph1-1h-g7b" secondAttribute="centerX" id="YLi-FJ-nkm"/>
+                                    <constraint firstItem="s8W-R3-yJ3" firstAttribute="leading" secondItem="ph1-1h-g7b" secondAttribute="leading" constant="8" id="gym-3P-UIo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ph1-1h-g7b" secondAttribute="bottom" id="Gph-cR-4mi"/>
+                            <constraint firstItem="ph1-1h-g7b" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="OsD-ef-cCV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ph1-1h-g7b" secondAttribute="trailing" id="V1R-kx-FPi"/>
+                            <constraint firstItem="ph1-1h-g7b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xbx-Qg-chq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="ATPalette" id="QVD-0F-fzU"/>
+                    <connections>
+                        <outlet property="palette" destination="qJh-o6-Pry" id="hVm-MT-HXN"/>
+                        <outlet property="resetButton" destination="wIB-fA-iMq" id="iDo-Jw-6G1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="971" y="-16"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image_Palette" width="730" height="730"/>
+    </resources>
+    <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</document>
