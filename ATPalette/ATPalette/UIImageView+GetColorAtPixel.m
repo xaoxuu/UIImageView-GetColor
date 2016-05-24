@@ -15,7 +15,8 @@
 - (UIColor *)getColorAtPixel:(CGPoint)point{
     
     // 定义image的Frame方便后面调用
-    const CGRect imageFrame = CGRectMake(0.0f, 0.0f, self.frame.size.width, self.frame.size.height);
+    const CGRect imageFrame = CGRectMake(0.0f, 0.0f,
+                                         self.frame.size.width, self.frame.size.height);
     
     // Cancel if point is outside image coordinates
     // 如果给定的点超出了image的坐标范围, 就返回nil
