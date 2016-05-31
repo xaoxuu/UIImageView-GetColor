@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ATPalette_Example' do
+  pod 'ATPalette', :path => '../'
+
+  target 'ATPalette_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
