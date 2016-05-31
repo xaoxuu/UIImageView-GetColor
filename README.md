@@ -26,7 +26,7 @@ pod "ATPalette"
 
 ## Author
 
-AesirTitan, ayan.bifrost#@gmail.com
+AesirTitan, ayan.bifrost@gmail.com
 
 ## License
 
