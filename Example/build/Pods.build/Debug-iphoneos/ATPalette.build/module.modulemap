@@ -1,0 +1,6 @@
+framework module ATPalette {
+  umbrella header "ATPalette-umbrella.h"
+
+  export *
+  module * { export * }
+}
