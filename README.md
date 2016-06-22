@@ -10,7 +10,7 @@
 
 ## 安装
 
-下载并解压压缩包,将"UIImageView+GetColorAtPixel/"文件夹下面的两个文件拖入项目中即可.
+下载并解压压缩包,将```UIImageView+GetColorAtPixel/```文件夹下面的两个文件拖入项目中即可.
 
 
 
