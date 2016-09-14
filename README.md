@@ -5,7 +5,7 @@
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/AesirTitan/ATKit/master/LICENSE) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![CocoaPods](http://img.shields.io/cocoapods/v/ATKit.svg?style=flat)](http://cocoapods.org/?q=ATKit) [![CocoaPods](http://img.shields.io/cocoapods/p/ATKit.svg?style=flat)](http://cocoapods.org/?q=ATKit) [![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/) 
 
 
-# UIImageView+GetColorAtPixel
+# UIImageView+GetColor
 
 
 ![](Resources/2016-05-20 21_00_39.gif)
@@ -14,9 +14,9 @@
 
 下载并解压压缩包,将```UIImageView+GetColor/```文件夹下面的两个文件拖入项目中即可.
 
->  **注意：**这个仓库不是最新的，要获取最新版本，请使用 [**ATKit**](https://github.com/AesirTitan/ATKit) 框架。
+>  **注意：**这个仓库不再更新，要获取最新版本，请使用 [**ATKit**](https://github.com/AesirTitan/ATKit) 框架。
 >
->  **注意：**这篇文档也不是最新的，最新版本的文档在 [**简书@AesirTitan**](http://www.jianshu.com/p/829624b5ffe1) 。
+>  **注意：**这篇文档也不再更新，最新版本的文档在 [**简书@AesirTitan**](http://www.jianshu.com/p/829624b5ffe1) 。
 
 
 
