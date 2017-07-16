@@ -1,26 +1,28 @@
 //
-//  ATMaterialButton.h
+//  AXMaterialButton.h
 //  GetColorDemo
 //
-//  Created by Aesir Titan on 2016-09-15.
+//  Created by xaoxuu on 2016-09-15.
 //  Copyright © 2016年 Titan Studio. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ATMaterialButton : UIButton
-
 // Enumeration of button status
 // 按钮状态枚举
-typedef NS_ENUM(NSUInteger,ATButtonStatus){
+typedef NS_ENUM(NSUInteger,AXButtonStatus){
     
     // normal
     // 普通
-    ATButtonStatusNormal,
+    AXButtonStatusNormal,
     // when the button tapped
     // 高亮
-    ATButtonStatusHighLighted,
+    AXButtonStatusHighLighted,
     
 };
+
+@interface AXMaterialButton : UIButton
+
+
 
 @end

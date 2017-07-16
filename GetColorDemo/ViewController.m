@@ -2,13 +2,13 @@
 //  ViewController.m
 //  GetColorDemo
 //
-//  Created by Aesir Titan on 2016-09-15.
+//  Created by xaoxuu on 2016-09-15.
 //  Copyright © 2016年 Titan Studio. All rights reserved.
 //
 
 #import "ViewController.h"
 
-#import "UIImageView+ATGetColor.h"
+#import "UIImageView+AXGetColor.h"
 
 
 @interface ViewController ()
@@ -38,7 +38,7 @@
     
     // set background color of view
     // 设置视图背景颜色
-    [self.palette at_getColorFromCircleWithPoint:point completion:^(UIColor * _Nonnull color) {
+    [self.palette ax_getColorFromCircleWithPoint:point completion:^(UIColor * _Nonnull color) {
         self.view.backgroundColor = color;
     }];
     
@@ -51,7 +51,7 @@
     
     // set background color of view
     // 设置视图背景颜色
-    [self.palette at_getColorFromCircleWithPoint:point completion:^(UIColor * _Nonnull color) {
+    [self.palette ax_getColorFromCircleWithPoint:point completion:^(UIColor * _Nonnull color) {
         self.view.backgroundColor = color;
     }];
     

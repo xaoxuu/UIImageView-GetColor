@@ -2,7 +2,7 @@
 //  ViewController.h
 //  GetColorDemo
 //
-//  Created by Aesir Titan on 2016-09-15.
+//  Created by xaoxuu on 2016-09-15.
 //  Copyright © 2016年 Titan Studio. All rights reserved.
 //
 

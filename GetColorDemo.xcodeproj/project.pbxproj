@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDBCEE2B1F1B96F600FBB3C7 /* UIImageView+AXGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCEE2A1F1B96F600FBB3C7 /* UIImageView+AXGetColor.m */; };
 		DD2EF60A1D89B3310098A4FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF6091D89B3310098A4FD /* main.m */; };
 		DD2EF60D1D89B3310098A4FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF60C1D89B3310098A4FD /* AppDelegate.m */; };
 		DD2EF6101D89B3310098A4FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF60F1D89B3310098A4FD /* ViewController.m */; };
 		DD2EF6151D89B3310098A4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2EF6141D89B3310098A4FD /* Assets.xcassets */; };
 		DD2EF6181D89B3310098A4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2EF6161D89B3310098A4FD /* LaunchScreen.storyboard */; };
-		DD2EF6271D89B4310098A4FD /* UIImageView+ATGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF6251D89B4310098A4FD /* UIImageView+ATGetColor.m */; };
-		DD2EF62A1D89B7520098A4FD /* ATMaterialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF6291D89B7520098A4FD /* ATMaterialButton.m */; };
+		DD2EF62A1D89B7520098A4FD /* AXMaterialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF6291D89B7520098A4FD /* AXMaterialButton.m */; };
 		DD2EF62C1D89BB660098A4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2EF62B1D89BB660098A4FD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CDBCEE291F1B96F600FBB3C7 /* UIImageView+AXGetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AXGetColor.h"; sourceTree = "<group>"; };
+		CDBCEE2A1F1B96F600FBB3C7 /* UIImageView+AXGetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AXGetColor.m"; sourceTree = "<group>"; };
 		DD2EF6051D89B3310098A4FD /* GetColorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetColorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2EF6091D89B3310098A4FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD2EF60B1D89B3310098A4FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,10 +29,8 @@
 		DD2EF6141D89B3310098A4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2EF6171D89B3310098A4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2EF6191D89B3310098A4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD2EF6241D89B4310098A4FD /* UIImageView+ATGetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ATGetColor.h"; sourceTree = "<group>"; };
-		DD2EF6251D89B4310098A4FD /* UIImageView+ATGetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ATGetColor.m"; sourceTree = "<group>"; };
-		DD2EF6281D89B7520098A4FD /* ATMaterialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMaterialButton.h; sourceTree = "<group>"; };
-		DD2EF6291D89B7520098A4FD /* ATMaterialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMaterialButton.m; sourceTree = "<group>"; };
+		DD2EF6281D89B7520098A4FD /* AXMaterialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXMaterialButton.h; sourceTree = "<group>"; };
+		DD2EF6291D89B7520098A4FD /* AXMaterialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXMaterialButton.m; sourceTree = "<group>"; };
 		DD2EF62B1D89BB660098A4FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,8 +69,8 @@
 				DD2EF60C1D89B3310098A4FD /* AppDelegate.m */,
 				DD2EF60E1D89B3310098A4FD /* ViewController.h */,
 				DD2EF60F1D89B3310098A4FD /* ViewController.m */,
-				DD2EF6281D89B7520098A4FD /* ATMaterialButton.h */,
-				DD2EF6291D89B7520098A4FD /* ATMaterialButton.m */,
+				DD2EF6281D89B7520098A4FD /* AXMaterialButton.h */,
+				DD2EF6291D89B7520098A4FD /* AXMaterialButton.m */,
 				DD2EF62B1D89BB660098A4FD /* Main.storyboard */,
 				DD2EF6141D89B3310098A4FD /* Assets.xcassets */,
 				DD2EF6161D89B3310098A4FD /* LaunchScreen.storyboard */,
@@ -91,8 +91,8 @@
 		DD2EF6221D89B4310098A4FD /* UIImageView+GetColor */ = {
 			isa = PBXGroup;
 			children = (
-				DD2EF6241D89B4310098A4FD /* UIImageView+ATGetColor.h */,
-				DD2EF6251D89B4310098A4FD /* UIImageView+ATGetColor.m */,
+				CDBCEE291F1B96F600FBB3C7 /* UIImageView+AXGetColor.h */,
+				CDBCEE2A1F1B96F600FBB3C7 /* UIImageView+AXGetColor.m */,
 			);
 			path = "UIImageView+GetColor";
 			sourceTree = "<group>";
@@ -167,10 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2EF6271D89B4310098A4FD /* UIImageView+ATGetColor.m in Sources */,
-				DD2EF62A1D89B7520098A4FD /* ATMaterialButton.m in Sources */,
+				DD2EF62A1D89B7520098A4FD /* AXMaterialButton.m in Sources */,
 				DD2EF6101D89B3310098A4FD /* ViewController.m in Sources */,
 				DD2EF60D1D89B3310098A4FD /* AppDelegate.m in Sources */,
+				CDBCEE2B1F1B96F600FBB3C7 /* UIImageView+AXGetColor.m in Sources */,
 				DD2EF60A1D89B3310098A4FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +318,7 @@
 				DD2EF61E1D89B3310098A4FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
